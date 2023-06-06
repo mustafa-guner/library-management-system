@@ -1,14 +1,16 @@
-package service.impl;
+package com.gunerdev.web.service.impl;
 
 import com.gunerdev.web.dto.UserDTO;
 import com.gunerdev.web.models.User;
 import com.gunerdev.web.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import service.UserService;
+import com.gunerdev.web.service.UserService;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class UserServiceImpl implements UserService {
     private UserRepository userRepository;
 

@@ -1,4 +1,4 @@
-package service;
+package com.gunerdev.web.service;
 
 import com.gunerdev.web.dto.UserDTO;
 
